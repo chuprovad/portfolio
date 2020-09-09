@@ -12,7 +12,7 @@
 }
 .hero {
 
-  background-image: url(./images/cover.jpg);
+  background-image: url(./images/6.jpg);
   background-size: cover;
   background-position: center bottom;
   min-height: 600px;
@@ -49,4 +49,12 @@ h1 {
 }
 .list-inline {
   margin-left: -5px;
+}
+.artwork {
+  padding: 0 8px;
+  margin-bottom: 40px;
+}
+@media (min-width: 768px)
+col-sm-6 {
+  width: 50%;
 }
