@@ -5,15 +5,48 @@
   margin-top: 5px;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #000;
+  color: #fff;
 }
-#hero {
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+.hero {
+
   background-image: url(./images/cover.jpg);
   background-size: cover;
   background-position: center bottom;
   min-height: 600px;
   text-align: center;
+
 }
-#hero h2 {
+header {
+  padding: 156px 0 100px;
+}
+.hero h2 {
   padding-top: 168px;
+}
+
+h1 {
+  font-size: 4em;
+}
+.divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.social-buttons {
+  display: inline-block;
+}
+.network {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.list-inline {
+  margin-left: -5px;
 }
