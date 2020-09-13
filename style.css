@@ -1,11 +1,11 @@
 .navbar-light .navbar-toggler {
-  border-color: none;
+  background-color: #fff;
+}
+.navbar-toggler-icon {
+  background-color: #fff;
 }
 .navbar-toggler {
   margin-top: 5px;
-}
-.navbar-light .navbar-nav .nav-link {
-  color: #fff;
 }
 .navbar-light .navbar-brand {
   color: #fff;
@@ -60,4 +60,7 @@ col-sm-6 {
 }
 p {
   font-size: 26px;
+}
+.navbar-light {
+  border-color: #000;
 }
